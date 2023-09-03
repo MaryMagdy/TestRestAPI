@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "bi2EW9lNW5u2O/DxUWfH0zzS6OzP4wRd+4gq1ZTmicU=",
+  "Source": "TestRestAPI",
+  "BasePath": "_content/TestRestAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
