@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "G:\\Mary\\Documents\\Private\\courses\\MicroServices\\Projrcts\\TestRestAPI\\TestRestAPI.csproj": {}
+    "G:\\Mary\\Documents\\Private\\courses\\REST & RESTful API\\Project\\TestRestAPI\\TestRestAPI.csproj": {}
   },
   "projects": {
-    "G:\\Mary\\Documents\\Private\\courses\\MicroServices\\Projrcts\\TestRestAPI\\TestRestAPI.csproj": {
+    "G:\\Mary\\Documents\\Private\\courses\\REST & RESTful API\\Project\\TestRestAPI\\TestRestAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\Mary\\Documents\\Private\\courses\\MicroServices\\Projrcts\\TestRestAPI\\TestRestAPI.csproj",
+        "projectUniqueName": "G:\\Mary\\Documents\\Private\\courses\\REST & RESTful API\\Project\\TestRestAPI\\TestRestAPI.csproj",
         "projectName": "TestRestAPI",
-        "projectPath": "G:\\Mary\\Documents\\Private\\courses\\MicroServices\\Projrcts\\TestRestAPI\\TestRestAPI.csproj",
+        "projectPath": "G:\\Mary\\Documents\\Private\\courses\\REST & RESTful API\\Project\\TestRestAPI\\TestRestAPI.csproj",
         "packagesPath": "C:\\Users\\Marry Magdy\\.nuget\\packages\\",
-        "outputPath": "G:\\Mary\\Documents\\Private\\courses\\MicroServices\\Projrcts\\TestRestAPI\\obj\\",
+        "outputPath": "G:\\Mary\\Documents\\Private\\courses\\REST & RESTful API\\Project\\TestRestAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
