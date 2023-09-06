@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Azure;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using TestRestAPI.Data;
@@ -49,6 +51,21 @@ namespace TestRestAPI.Controllers
             _db.SaveChanges();
             return Ok(c);
         }
+
+        [HttpPatch("{id}")]
+        public async Task<IActionResult> UpdateCcategoryPatch([FromBody]JsonPatchDocument<Category> category,
+            [FromRoute] int id)
+        {
+            var c =await _db.Categories.SingleOrDefaultAsync(x => x.Id == id);
+            if (c == null)
+            {
+                return NotFound($"Category Id {id} not exists ");
+            }
+            category.ApplyTo(c);
+            _db.SaveChanges();
+            return Ok(c);
+        }
+
 
         [HttpDelete("id")]
         public async Task<IActionResult> DeleteCategory(int id)
