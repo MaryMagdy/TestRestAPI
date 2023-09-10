@@ -56,5 +56,30 @@ namespace TestRestAPI.Controllers
             _db.SaveChanges();
             return Ok(item);
         }
+
+
+        [HttpGet("ItemsWithCategory/{IdCategory}")]
+        public async Task<IActionResult> ItemsWithCategory(int IdCategory)
+        {
+            var item = await _db.Items.Where(x => x.CategoryId == IdCategory).ToListAsync();
+            if (item == null)
+            {
+                return NotFound($"Category Id {IdCategory} Has No Items");
+            }
+            return Ok(item);
+        }
+
+
+        [HttpDelete("id")]
+        public async Task<IActionResult> DeleteItem(int id)
+        {
+            var item = await _db.Items.SingleOrDefaultAsync(x=>x.Id == id); 
+            if (item == null)
+            {
+                return NotFound($"item id {id} not found");
+            }
+
+            _db.Items.Remove(item); return Ok(item);    
+        }
     }
 }
