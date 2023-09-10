@@ -38,7 +38,7 @@ namespace TestRestAPI.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> AddItem(mdlItem mdl)
+        public async Task<IActionResult> AddItem([FromForm]mdlItem mdl)
         {
             using var stream = new MemoryStream();
             await mdl.Image.CopyToAsync(stream);
@@ -53,8 +53,8 @@ namespace TestRestAPI.Controllers
             };
 
             await _db.Items.AddAsync(item);
-             _db.SaveChanges();
-            return Ok(item);    
+            _db.SaveChanges();
+            return Ok(item);
         }
     }
 }

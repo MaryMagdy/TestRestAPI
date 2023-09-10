@@ -81,9 +81,6 @@ G:\Mary\Documents\Private\courses\REST & RESTful API\Project\TestRestAPI\obj\Deb
 G:\Mary\Documents\Private\courses\REST & RESTful API\Project\TestRestAPI\obj\Debug\net7.0\TestRestAPI.csproj.CoreCompileInputs.cache
 G:\Mary\Documents\Private\courses\REST & RESTful API\Project\TestRestAPI\obj\Debug\net7.0\TestRestAPI.MvcApplicationPartsAssemblyInfo.cs
 G:\Mary\Documents\Private\courses\REST & RESTful API\Project\TestRestAPI\obj\Debug\net7.0\TestRestAPI.MvcApplicationPartsAssemblyInfo.cache
-G:\Mary\Documents\Private\courses\REST & RESTful API\Project\TestRestAPI\obj\Debug\net7.0\TestRestAPI.dll
-G:\Mary\Documents\Private\courses\REST & RESTful API\Project\TestRestAPI\obj\Debug\net7.0\refint\TestRestAPI.dll
-G:\Mary\Documents\Private\courses\REST & RESTful API\Project\TestRestAPI\obj\Debug\net7.0\TestRestAPI.pdb
 G:\Mary\Documents\Private\courses\REST & RESTful API\Project\TestRestAPI\bin\Debug\net7.0\appsettings.Development.json
 G:\Mary\Documents\Private\courses\REST & RESTful API\Project\TestRestAPI\bin\Debug\net7.0\appsettings.json
 G:\Mary\Documents\Private\courses\REST & RESTful API\Project\TestRestAPI\bin\Debug\net7.0\TestRestAPI.exe
@@ -94,6 +91,8 @@ G:\Mary\Documents\Private\courses\REST & RESTful API\Project\TestRestAPI\bin\Deb
 G:\Mary\Documents\Private\courses\REST & RESTful API\Project\TestRestAPI\bin\Debug\net7.0\Azure.Core.dll
 G:\Mary\Documents\Private\courses\REST & RESTful API\Project\TestRestAPI\bin\Debug\net7.0\Azure.Identity.dll
 G:\Mary\Documents\Private\courses\REST & RESTful API\Project\TestRestAPI\bin\Debug\net7.0\Humanizer.dll
+G:\Mary\Documents\Private\courses\REST & RESTful API\Project\TestRestAPI\bin\Debug\net7.0\Microsoft.AspNetCore.JsonPatch.dll
+G:\Mary\Documents\Private\courses\REST & RESTful API\Project\TestRestAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 G:\Mary\Documents\Private\courses\REST & RESTful API\Project\TestRestAPI\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
 G:\Mary\Documents\Private\courses\REST & RESTful API\Project\TestRestAPI\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
 G:\Mary\Documents\Private\courses\REST & RESTful API\Project\TestRestAPI\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
@@ -115,6 +114,8 @@ G:\Mary\Documents\Private\courses\REST & RESTful API\Project\TestRestAPI\bin\Deb
 G:\Mary\Documents\Private\courses\REST & RESTful API\Project\TestRestAPI\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
 G:\Mary\Documents\Private\courses\REST & RESTful API\Project\TestRestAPI\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
 G:\Mary\Documents\Private\courses\REST & RESTful API\Project\TestRestAPI\bin\Debug\net7.0\Mono.TextTemplating.dll
+G:\Mary\Documents\Private\courses\REST & RESTful API\Project\TestRestAPI\bin\Debug\net7.0\Newtonsoft.Json.dll
+G:\Mary\Documents\Private\courses\REST & RESTful API\Project\TestRestAPI\bin\Debug\net7.0\Newtonsoft.Json.Bson.dll
 G:\Mary\Documents\Private\courses\REST & RESTful API\Project\TestRestAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
 G:\Mary\Documents\Private\courses\REST & RESTful API\Project\TestRestAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 G:\Mary\Documents\Private\courses\REST & RESTful API\Project\TestRestAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -148,9 +149,8 @@ G:\Mary\Documents\Private\courses\REST & RESTful API\Project\TestRestAPI\obj\Deb
 G:\Mary\Documents\Private\courses\REST & RESTful API\Project\TestRestAPI\obj\Debug\net7.0\staticwebassets.development.json
 G:\Mary\Documents\Private\courses\REST & RESTful API\Project\TestRestAPI\obj\Debug\net7.0\scopedcss\bundle\TestRestAPI.styles.css
 G:\Mary\Documents\Private\courses\REST & RESTful API\Project\TestRestAPI\obj\Debug\net7.0\TestRestAPI.csproj.CopyComplete
+G:\Mary\Documents\Private\courses\REST & RESTful API\Project\TestRestAPI\obj\Debug\net7.0\TestRestAPI.dll
+G:\Mary\Documents\Private\courses\REST & RESTful API\Project\TestRestAPI\obj\Debug\net7.0\refint\TestRestAPI.dll
+G:\Mary\Documents\Private\courses\REST & RESTful API\Project\TestRestAPI\obj\Debug\net7.0\TestRestAPI.pdb
 G:\Mary\Documents\Private\courses\REST & RESTful API\Project\TestRestAPI\obj\Debug\net7.0\TestRestAPI.genruntimeconfig.cache
 G:\Mary\Documents\Private\courses\REST & RESTful API\Project\TestRestAPI\obj\Debug\net7.0\ref\TestRestAPI.dll
-G:\Mary\Documents\Private\courses\REST & RESTful API\Project\TestRestAPI\bin\Debug\net7.0\Microsoft.AspNetCore.JsonPatch.dll
-G:\Mary\Documents\Private\courses\REST & RESTful API\Project\TestRestAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
-G:\Mary\Documents\Private\courses\REST & RESTful API\Project\TestRestAPI\bin\Debug\net7.0\Newtonsoft.Json.dll
-G:\Mary\Documents\Private\courses\REST & RESTful API\Project\TestRestAPI\bin\Debug\net7.0\Newtonsoft.Json.Bson.dll

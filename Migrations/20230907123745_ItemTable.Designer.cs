@@ -11,8 +11,8 @@ using TestRestAPI.Data;
 namespace TestRestAPI.Migrations
 {
     [DbContext(typeof(AppDBContext))]
-    [Migration("20230906105214_ItemsTable")]
-    partial class ItemsTable
+    [Migration("20230907123745_ItemTable")]
+    partial class ItemTable
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -74,7 +74,7 @@ namespace TestRestAPI.Migrations
 
                     b.HasIndex("CategoryId");
 
-                    b.ToTable("Item");
+                    b.ToTable("Items");
                 });
 
             modelBuilder.Entity("TestRestAPI.Data.Models.Item", b =>

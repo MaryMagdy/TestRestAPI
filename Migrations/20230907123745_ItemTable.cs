@@ -5,13 +5,13 @@
 namespace TestRestAPI.Migrations
 {
     /// <inheritdoc />
-    public partial class ItemsTable : Migration
+    public partial class ItemTable : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "Item",
+                name: "Items",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
@@ -24,9 +24,9 @@ namespace TestRestAPI.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Item", x => x.Id);
+                    table.PrimaryKey("PK_Items", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Item_Categories_CategoryId",
+                        name: "FK_Items_Categories_CategoryId",
                         column: x => x.CategoryId,
                         principalTable: "Categories",
                         principalColumn: "Id",
@@ -34,8 +34,8 @@ namespace TestRestAPI.Migrations
                 });
 
             migrationBuilder.CreateIndex(
-                name: "IX_Item_CategoryId",
-                table: "Item",
+                name: "IX_Items_CategoryId",
+                table: "Items",
                 column: "CategoryId");
         }
 
@@ -43,7 +43,7 @@ namespace TestRestAPI.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "Item");
+                name: "Items");
         }
     }
 }
